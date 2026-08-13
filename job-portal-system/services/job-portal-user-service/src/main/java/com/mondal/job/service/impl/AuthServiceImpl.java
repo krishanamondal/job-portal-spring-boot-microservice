@@ -1,6 +1,7 @@
 package com.mondal.job.service.impl;
 
 import com.mondal.job.domain.UserRole;
+import com.mondal.job.domain.UserStatus;
 import com.mondal.job.mapper.UserMapper;
 import com.mondal.job.model.User;
 import com.mondal.job.payload.AuthResponse;
@@ -35,6 +36,7 @@ public class AuthServiceImpl implements AuthService{
                 .roles(request.getRole())
                 .phone(request.getPhone())
                 .lastLogin(LocalDateTime.now())
+                .status(UserStatus.ACTIVE)
                 .build();
         User savedUser = userRepository.save(user);
         AuthResponse response = new AuthResponse();
