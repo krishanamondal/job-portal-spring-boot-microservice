@@ -1186,7 +1186,8 @@
       <change afterPath="$PROJECT_DIR$/../../webapp/target/webapp-1.0-SNAPSHOT/pages/footer.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../webapp/target/webapp-1.0-SNAPSHOT/pages/header.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/job-portal-user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/job-portal-user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/job-portal-user-service/src/main/java/com/mondal/job/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/job-portal-user-service/src/main/java/com/mondal/job/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/job-portal-user-service/src/main/java/com/mondal/job/service/impl/AuthServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/job-portal-user-service/src/main/java/com/mondal/job/service/impl/AuthServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1349,7 +1350,7 @@
       <workItem from="1784828258610" duration="10362000" />
       <workItem from="1785779372207" duration="2436000" />
       <workItem from="1786122587861" duration="1727000" />
-      <workItem from="1786641612761" duration="4425000" />
+      <workItem from="1786641612761" duration="5430000" />
     </task>
     <servers />
   </component>
